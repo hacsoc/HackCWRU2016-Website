@@ -3,6 +3,17 @@ body {
 	letter-spacing: 2px;
 	background-color: #A0A0A0;
 	color: white;
+	margin:0;
+}
+
+.smedia {
+	margin-top: 20px;
+	padding: 0;
+	list-style: none;
+}
+
+.smedia li {
+	display: inline;
 }
 
 .nav {
@@ -30,33 +41,120 @@ body {
 	color: #3588CC;
 }
 
-img {
+#home_container {
+	width: 750px;
+	height: 360px;
+	margin: auto;
+	padding-top: 20px;
+	padding-bottom: 80px;
+}
+
+.home_logo {
 	display: block;
 	padding-top: 30px;
 	margin-left: auto;
 	margin-right: auto;
+	padding-bottom: 0px;
+	float: left;
+}
+
+.home_container_text {
+	overflow: hidden;
+	padding-top: 40px;
+}
+
+.home_container_text1 {
 	padding-bottom: 20px;
+}
+.home_container_text2 {
+	padding-top: 10px;
+}
+
+.home_container_text2_1 {
+	padding-bottom: 20px;
+}
+
+#home_sponsors {
+	padding-top: 40px;
+	width: 100%;
+	background-color:#8CD4F5;
+}
+
+.home_sponsors_logos {
+	width: 800px;
+	padding-top: 10px;
+	margin: auto;
+}
+
+.home_sponsors_logos_nibble {
+	height: 150px;
+	text-align: center;
+	white-space: nowrap;
+}
+
+.home_sponsors_logos_partner {
+	height: 150px;
+	text-align: center;
+	white-space: nowrap;
+}
+
+.nibble_logo {
+	vertical-align: middle;
+	width:210px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.partner_logo {
+	vertical-align: middle;
+	width:160px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.smlogo {
+	width: 30px;
+	height: 30px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.helper {
+	display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.footer {
+	color:black;
+	height: 165px;
+	text-align:center;
+	background-color: #DBF2FF;
+	margin-top:0;
+}
+
+.copyr {
+	padding-top: 20px;
+	margin-bottom: 30px;
 }
 
 h1 {
 	letter-spacing: 10px;
 	text-align: center;
 	font-size: 72px;
-	margin-top: 0px;
-	margin-bottom: 8px;
+	margin: 0;
 }
 
 h2 {
 	text-align: center;
-	font-size: 35px;
-	margin-top: 0px;
-	margin-bottom: 8px;
+	font-size: 30px;
+	margin: 0;
 }
 
 h3 {
 	text-align: center;
-	font-size: 25px;
-	margin-top: 0px;
+	font-size: 20px;
+	margin: 0;
 }
 
 h3 a:link {
@@ -66,12 +164,20 @@ h3 a:link {
 
 h4 {
 	text-align: center;
-	font-size: 25px;
+	font-size: 20px;
 	margin-top: 0px;
 }
 
+h5 {
+	text-align: center;
+	font-size: 45px;
+	margin: 0px;
+}
+
 div.box {
-    max-width: 560px;
+	font-size: 20px;
+	text-align: center;
+    max-width: 50%;
     margin-left: auto;
     margin-right: auto;
 }
