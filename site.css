@@ -92,8 +92,14 @@ body {
 	white-space: nowrap;
 }
 
+.home_sponsors_logos_byte {
+	height: 200px;
+	text-align: center;
+	white-space: nowrap;
+}
+
 .home_sponsors_logos_partner {
-	height: 150px;
+	height: 130px;
 	text-align: center;
 	white-space: nowrap;
 }
@@ -105,9 +111,16 @@ body {
 	margin-right: 20px;
 }
 
+.byte_logo {
+	vertical-align: middle;
+	width:320px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
 .partner_logo {
 	vertical-align: middle;
-	width:160px;
+	width:130px;
 	margin-left: 20px;
 	margin-right: 20px;
 }
