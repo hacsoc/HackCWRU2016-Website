@@ -151,6 +151,10 @@ body {
 	margin-bottom: 30px;
 }
 
+.box a {
+	text-decoration: none;
+}
+
 h1 {
 	letter-spacing: 10px;
 	text-align: center;
