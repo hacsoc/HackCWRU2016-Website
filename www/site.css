@@ -256,6 +256,14 @@ div.box {
     margin-right: auto;
 }
 
+.img-hover {
+	opacity: 0.7;
+}
+
+.img-hover:hover {
+	opacity: 1.0;
+}
+
 .first {
 	-webkit-animation: bannermove 120s linear infinite;
     -moz-animation: bannermove 120s linear infinite;
