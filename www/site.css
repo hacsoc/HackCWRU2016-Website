@@ -122,6 +122,31 @@ body {
 	margin-right: auto;
 }
 
+#bios {
+	width:100%;
+	padding-top:40px;
+	text-align:center;
+}
+
+#bio_container {
+
+}
+
+.bio_img {
+	border-radius:50%;
+	width:200px;
+}
+
+.bio_text {
+	text-align:center;
+}
+
+.bio {
+	width:250px;
+	height:300px;
+	display:inline-block;	
+}
+
 .reg {
 	font-size:20px;
 	line-height:50px;
@@ -187,8 +212,8 @@ body {
 
 .helper {
 	display: inline-block;
-    height: 100%;
-    vertical-align: middle;
+	height: 100%;
+	vertical-align: middle;
 }
 
 .footer {
