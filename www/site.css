@@ -125,16 +125,26 @@ body {
 #bios {
 	width:100%;
 	padding-top:40px;
+	padding-bottom:40px;
 	text-align:center;
 }
 
-#bio_container {
-
-}
-
 .bio_img {
+	margin-top:10px;
+	margin-bottom:10px;
 	border-radius:50%;
 	width:200px;
+}
+
+.bio_img:hover {
+	-webkit-filter:blur(2px);
+	-moz-filter:blur(2px);
+	-o-filter:blur(2px);
+	-ms-filter:blur(2px);
+	filter:blur(2px);
+	margin-top:0;
+	margin-bottom:0;
+	width:220px;
 }
 
 .bio_text {
