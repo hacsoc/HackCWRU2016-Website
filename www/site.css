@@ -47,6 +47,13 @@ body {
 	color: #3588CC;
 }
 
+.contact_profile {
+	width: 750px;
+	height: 200px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
 #home {
 	width: 750px;
 	height: 430px;
