@@ -315,6 +315,12 @@ div.box {
     animation: bannermove 120s linear infinite;
 }
 
+.not-active {
+    pointer-events: none;
+    cursor: default;
+    background-color:#C0C0C0;
+}
+
 @keyframes "bannermove" {
  0% {
     margin-left: 0px;
