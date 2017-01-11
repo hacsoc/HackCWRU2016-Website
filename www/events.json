@@ -1,0 +1,28 @@
+{
+    "events": [
+        {
+            "name": "Test event 1",
+            "start_time": "Mon Jan  2 15:50:18 EST 2017",
+            "end_time": "Mon Jan  2 16:50:18 EST 2017",
+            "description": "Test event one. Things may or may not happen.",
+            "map": "http://hack.cwru.edu/api/locations/location1.png",
+            "location": "location1",
+        },
+        {
+            "name": "Test event 2",
+            "start_time": "Mon Jan  2 16:50:18 EST 2017",
+            "end_time": "Mon Jan  2 17:50:18 EST 2017",
+            "description": "Test event two. Things won't happen.",
+            "map": "http://hack.cwru.edu/api/locations/location1.png",
+            "location": "location1",
+        },
+        {
+            "name": "Test event 1",
+            "start_time": "Mon Jan  2 15:50:18 EST 2017",
+            "end_time": "Mon Jan  2 16:50:18 EST 2017",
+            "description": "Test event one. Things may or may not happen.",
+            "map": "http://hack.cwru.edu/api/locations/location1.png",
+            "location": "location1",
+        },
+    ]
+}

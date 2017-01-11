@@ -48,38 +48,36 @@ body {
 }
 
 #home {
-	width: 750px;
-	height: 430px;
-	margin: auto;
-	padding-top: 20px;
-	padding-bottom: 80px;
+	height: 100vh;
 }
 
-.home_logo {
-	width:262px;
-	display: block;
-	padding-top: 80px;
-	margin-left: auto;
-	margin-right: auto;
-	padding-bottom: 0px;
+#home_logo {
+	height: 90vh;
+	margin-right: 0px;
+	margin-top: 63px;
+	margin-bottom: auto;
 	float: left;
 }
 
 .home_container_text {
+	height: 430px;
+	margin-right: 0px;
 	overflow: hidden;
-	padding-top: 80px;
-	text-align: center;
+	text-align: left;
+	padding-top: calc(50vh - 235px);
+	padding-bottom: calc(50vh - 195px);
 }
 
-.home_container_text1 {
-	padding-bottom: 20px;
+#cwru {
+	margin-bottom: 5px;
 }
+
 .home_container_text2 {
-	padding-top: 10px;
+	padding-left: 5px;
 }
 
 .home_container_text2_1 {
-	padding-bottom: 20px;
+	padding-bottom: 10px;
 }
 
 #photobanner_container {
@@ -328,9 +326,9 @@ div.box {
  100% {
     margin-left: -5566px;
  }
- 
+
 }
- 
+
 @-moz-keyframes bannermove {
  0% {
    margin-left: 0px;
@@ -338,9 +336,9 @@ div.box {
  100% {
    margin-left: -5566px;
  }
- 
+
 }
- 
+
 @-webkit-keyframes "bannermove" {
  0% {
    margin-left: 0px;
@@ -348,9 +346,9 @@ div.box {
  100% {
    margin-left: -5566px;
  }
- 
+
 }
- 
+
 @-ms-keyframes "bannermove" {
  0% {
    margin-left: 0px;
@@ -358,9 +356,9 @@ div.box {
  100% {
    margin-left: -5566px;
  }
- 
+
 }
- 
+
 @-o-keyframes "bannermove" {
  0% {
    margin-left: 0px;
@@ -368,5 +366,5 @@ div.box {
  100% {
    margin-left: -5566px;
  }
- 
+
 }
