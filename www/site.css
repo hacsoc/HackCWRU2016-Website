@@ -319,6 +319,15 @@ div.box {
     background-color:#AFB9BC;
 }
 
+.link_text_1 {
+	text-decoration: none;
+	color:#023251;
+}
+
+.link_text_2 {
+	color:#023251;
+}
+
 @keyframes "bannermove" {
  0% {
     margin-left: 0px;
