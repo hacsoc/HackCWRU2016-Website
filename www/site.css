@@ -1,7 +1,7 @@
 body {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	letter-spacing: 2px;
-	background-color:#EFEFEF;
+	background-color:#E3E8EF;
 	color: black;
 	margin:0;
 }
@@ -22,11 +22,11 @@ body {
 	position:fixed;
 	width:100%;
 	text-align: center;
-	font-size: 24px;
+	font-size: 2.5vh;
 	margin: 0;
 	padding: 0;
 	list-style: none;
-	background-color: #EFEFEF;
+	background-color: #E3E8EF;
 }
 
 .nav li {
@@ -38,13 +38,13 @@ body {
 	display: inline-block;
 	padding-top: 10px;
 	padding-bottom: 15px;
-	padding-right: 20px;
-	padding-left: 20px;
-	color: #045184;
+	padding-right: 1vw;
+	padding-left: 1vw;
+	color: #53595A;
 }
 
 .nav a:hover {
-	color: #3588CC;
+	color: #1371AC;
 }
 
 #home {
@@ -97,7 +97,7 @@ body {
 }
 
 #about {
-	background-color: #1D86C8;
+	background-color: #0F5D8D;
 	padding-top: 60px;
 	padding-bottom: 60px;
 	color: white;
@@ -142,7 +142,7 @@ body {
 	text-align:center;
 	height:50px;
 	width:150px;
-	background-color:#1D86C8;
+	background-color:#0F5D8D;
 }
 
 .home_sponsors_logos {
@@ -233,7 +233,7 @@ body {
 	color:black;
 	height: 165px;
 	text-align:center;
-	background-color: #1D86C8;
+	background-color: #0F5D8D;
 	margin-top:0;
 }
 
@@ -243,7 +243,7 @@ body {
 }
 
 .faq_q {
-	color:#095790;
+	color:#1371AC;
 	margin-top:8px;
 }
 
@@ -314,7 +314,16 @@ div.box {
 .not-active {
     pointer-events: none;
     cursor: default;
-    background-color:#C0C0C0;
+    background-color:#AFB9BC;
+}
+
+.mlh_link {
+	text-decoration: none;
+	color:#023251;
+}
+
+.email_link {
+	color:#023251;
 }
 
 @keyframes "bannermove" {
