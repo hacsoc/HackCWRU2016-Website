@@ -319,12 +319,60 @@ div.box {
 
 .mlh_link {
 	text-decoration: none;
-	color:#AFB9BC;
+	color:#1371ac;
 }
 
 .email_link {
-	color:#023251;
+	color:#1371ac;
 }
+
+#tracks {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#tracks_header {
+    padding-bottom: .5em;
+}
+
+#tracks_body {
+    padding-top: 2em;
+}
+
+.tracks_overview {
+    font-weight: 300;
+    margin: 0;
+    padding-bottom: .5em;
+    font-size: 20px;
+}
+
+.track-title {
+    padding-top: 0;
+    padding-bottom: 0;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.track-icon {
+    width: 11em;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding-bottom: 1.5em;
+}
+
+/* Flex puts both child elements on the same line in xs, would need to
+*  put in flex wrap in mobile so that it will be full width columns */
+
+/* .card > div { */
+/*     margin: 0 auto; */
+/* } */
 
 @keyframes "bannermove" {
  0% {
