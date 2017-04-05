@@ -1,6 +1,6 @@
 body {
 	font-family: 'Open Sans', sans-serif;
-	background-color:#E3E8EF;
+	background-color: white;
 	color: black;
 	margin:0;
 }
@@ -25,7 +25,7 @@ body {
 	margin: 0;
 	padding: 0;
 	list-style: none;
-	background-color: #E3E8EF;
+	background-color: #E3E8EF;;
 }
 
 .nav li {
@@ -39,7 +39,7 @@ body {
 	padding-bottom: 15px;
 	padding-right: 20px;
 	padding-left: 20px;
-	color: #53595A;
+	color: #1371ac;
 }
 
 .nav a:hover {
@@ -96,10 +96,10 @@ body {
 }
 
 #about {
-	background-color: #0F5D8D;
+	background-color: #E3E8EF;
 	padding-top: 60px;
 	padding-bottom: 60px;
-	color: white;
+	color: black;
 }
 
 #home_about_text {
@@ -127,6 +127,7 @@ body {
 	padding-top: 60px;
 	padding-bottom: 60px;
 	color: black;
+  background-color: #E3E8EF;
 }
 
 #home_faq_text {
