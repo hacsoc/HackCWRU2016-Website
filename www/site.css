@@ -108,19 +108,12 @@ body {
 	margin-right: auto;
 }
 
-#schedule {
-    padding-top: 60px;
-    padding-bottom: 60px;
+#schedule ul {
+	list-style: none;
 }
 
-#home_schedule_text {
-    max-width: 700px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#home_schedule_text ul {
-    list-style: none;
+#schedule ul > li {
+	padding-bottom: 16px;
 }
 
 #faq {
