@@ -143,10 +143,40 @@ body {
 	background-color:#0F5D8D;
 }
 
-.home_sponsors_logos {
+.home_sponsors_logos img {
 	width: 800px;
 	padding-top: 10px;
 	margin: auto;
+	display: block;
+}
+
+/* NOTE: All sponsor widths must be less than 800px. */
+#sponsors_rockwell {
+	width: 500px;
+	margin-top: 40px;
+}
+
+#sponsors_hyland {
+	width: 410px;
+	margin-top: 80px;
+}
+
+#sponsors_mri {
+	width: 350px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+#sponsors_eb {
+	width: 500px;
+	margin-top: 60px;
+	margin-bottom: 90px;
+}
+
+#sponsors_explorys {
+	width: 500px;
+	margin-top: 60px;
+	margin-bottom: 90px;
 }
 
 .home_sponsors_logos_nibble {
