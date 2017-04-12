@@ -72,23 +72,23 @@ function populateSchedule() {
 }
 
 function populateDayOfContacts() {
-  $.getJSON("https://hack-cwru.com/api/v1/emergency/contacts/available", function(json) {
+  $.getJSON("https://hack-cwru.com/api/v1/contacts/visible", function(json) {
     var contactsDiv = $("#contacts");
-    var emergencyContacts = json.emergencyContacts;
+    var contacts = json.contacts;
 
-    if (emergencyContacts.length == 0) {
+    if (contacts.length == 0) {
       return;
     }
 
     contactsDiv.append("<p>Organizers & other day of contacts</p>");
     contactsDiv.append("<ul id=emergency_contacts_list></ul>");
 
-    var emergencyContactsList = $("#emergency_contacts_list");
+    var contactsList = $("#emergency_contacts_list");
 
-    emergencyContacts.forEach(function(emergencyContact) {
-      console.log(emergencyContact);
-      var contactInfo = emergencyContact.name + " - "  + emergencyContact.phone;
-      emergencyContactsList.append("<li>" + contactInfo + "</li>");
+    contacts.forEach(function(contact) {
+      var phone = "<a href='tel:" + contact.phone + "'>" + contact.phone + "</a>";
+      var contactInfo = contact.name + " - "  + phone;
+      contactsList.append("<li>" + contactInfo + "</li>");
     });
   });
 }
