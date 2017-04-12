@@ -56,6 +56,9 @@ function populateSchedule() {
       schedule.append("<h4>" + events[0].dayOfWeek + "</h4>")
       schedule.append("<ul id=events_" + events[0].hash + "></ul>");
 
+      events.sort(function (lhs, rhs) {
+        return lhs.startTime < rhs.startTime ? -1 : 1;
+      });
 
       events.forEach(function (event) {
         var eventTime = "<i>" + event.startDate.prettyTime() + "</i> ";
