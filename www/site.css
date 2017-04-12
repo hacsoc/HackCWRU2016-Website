@@ -105,7 +105,7 @@ body {
 #contact {
 	background-color: white;
 	padding-top: 60px;
-	padding-bottom: 0px;
+	padding-bottom: 60px;
 }
 
 #contacts p {
@@ -299,7 +299,6 @@ body {
 	background-color: #E3E8EF;
 	margin-top: 60px;
 	margin-bottom: 0px;
-	padding-top: 30px;
 }
 
 .copyr {

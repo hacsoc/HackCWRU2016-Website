@@ -80,7 +80,7 @@ function populateDayOfContacts() {
       return;
     }
 
-    contactsDiv.append("<p>Organizers & other day of contacts</p>");
+    contactsDiv.append("<p>Organizers & other day of contacts:</p>");
     contactsDiv.append("<ul id=emergency_contacts_list></ul>");
 
     var contactsList = $("#emergency_contacts_list");
