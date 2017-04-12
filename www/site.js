@@ -3,6 +3,7 @@ window.onload = function() {
   var home_text = document.getElementById("home_text");
   main(home_logo, home_text);
   populateSchedule();
+  populateDayOfContacts();
 }
 
 window.onresize = function() {
@@ -67,5 +68,27 @@ function populateSchedule() {
         $('#events_' + event.hash).append(eventListItem);
       });
     }
+  });
+}
+
+function populateDayOfContacts() {
+  $.getJSON("https://hack-cwru.com/api/v1/emergency/contacts/available", function(json) {
+    var contactsDiv = $("#contacts");
+    var emergencyContacts = json.emergencyContacts;
+
+    if (emergencyContacts.length == 0) {
+      return;
+    }
+
+    contactsDiv.append("<p>Organizers & other day of contacts</p>");
+    contactsDiv.append("<ul id=emergency_contacts_list></ul>");
+
+    var emergencyContactsList = $("#emergency_contacts_list");
+
+    emergencyContacts.forEach(function(emergencyContact) {
+      console.log(emergencyContact);
+      var contactInfo = emergencyContact.name + " - "  + emergencyContact.phone;
+      emergencyContactsList.append("<li>" + contactInfo + "</li>");
+    });
   });
 }
