@@ -102,6 +102,41 @@ body {
 	color: black;
 }
 
+#contact {
+	background-color: white;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+#contacts p {
+	margin-top: 40px;
+	margin-bottom: 8px;
+}
+
+#contacts {
+	width: 600px;
+	margin: auto;
+	padding-bottom: 20px;
+	display: block;
+}
+
+#contacts ul {
+	font-size: 19px;
+	list-style: none;
+	padding-bottom: 0px;
+}
+
+#contacts ul > li {
+	margin-top: 16px;
+	margin-bottom: 16px;
+}
+
+#schedule ul > li {
+	margin-left: 32px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
 #home_about_text {
 	max-width:700px;
 	margin-left: auto;
@@ -123,7 +158,7 @@ body {
 
 #faq {
 	padding-top: 60px;
-	padding-bottom: 60px;
+	padding-bottom: 0px;
 	color: black;
   background-color: #E3E8EF;
 }
@@ -259,10 +294,11 @@ body {
 
 .footer {
 	color:black;
-	height: 165px;
+	height: 180px;
 	text-align:center;
 	background-color: #E3E8EF;
-	margin-top:0;
+	margin-top: 60px;
+	margin-bottom: 0px;
 }
 
 .copyr {
