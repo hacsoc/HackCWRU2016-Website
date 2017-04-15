@@ -214,6 +214,11 @@ body {
 	margin-bottom: 90px;
 }
 
+#sponsors_assurant {
+	width: 500px;
+	margin-bottom: 90px;
+}
+
 .home_sponsors_logos_nibble {
 	height: 125px;
 	text-align: center;
@@ -299,7 +304,7 @@ body {
 	background-color: #E3E8EF;
 	margin-top: 60px;
 	margin-bottom: 0px;
-}
+	}
 
 .copyr {
 	padding-top: 20px;
